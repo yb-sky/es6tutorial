@@ -342,7 +342,7 @@ let x;
 // SyntaxError: syntax error
 ```
 
-上面代码的写法会报错，因为 JavaScript 引擎会将`{x}`理解成一个代码块，从而发生语法错误。只有不将大括号写在行首，避免 JavaScript 将其解释为代码块，才能解决这个问题。
+上面代码的写法会报错，因为 JavaScript 引擎会将`{x}`理解成一个代码块，从而发生语法错误。只有将大括号写在行首，避免 JavaScript 将其解释为代码块，才能解决这个问题。
 
 ```javascript
 // 正确的写法
